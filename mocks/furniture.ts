@@ -1,0 +1,117 @@
+import { FurnitureItem } from '@/types/furniture';
+
+export const furnitureData: FurnitureItem[] = [
+  {
+    id: 'chair-1',
+    name: 'Modern Dining Chair',
+    description: 'Elegant wooden dining chair with cushioned seat',
+    category: 'chairs',
+    imageUrl: 'https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80',
+  },
+  {
+    id: 'chair-2',
+    name: 'Office Ergonomic Chair',
+    description: 'Comfortable office chair with lumbar support',
+    category: 'chairs',
+    imageUrl: 'https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=800&q=80',
+  },
+  {
+    id: 'chair-3',
+    name: 'Lounge Accent Chair',
+    description: 'Stylish accent chair perfect for reading corner',
+    category: 'chairs',
+    imageUrl: 'https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80',
+  },
+  {
+    id: 'table-1',
+    name: 'Oak Dining Table',
+    description: 'Solid oak dining table seats 6-8 people',
+    category: 'tables',
+    imageUrl: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80',
+  },
+  {
+    id: 'table-2',
+    name: 'Glass Coffee Table',
+    description: 'Modern glass coffee table with metal legs',
+    category: 'tables',
+    imageUrl: 'https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=800&q=80',
+  },
+  {
+    id: 'table-3',
+    name: 'Minimalist Desk',
+    description: 'Clean lines desk perfect for home office',
+    category: 'tables',
+    imageUrl: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80',
+  },
+  {
+    id: 'sofa-1',
+    name: 'Velvet 3-Seater Sofa',
+    description: 'Luxurious velvet sofa in deep blue',
+    category: 'sofas',
+    imageUrl: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
+  },
+  {
+    id: 'sofa-2',
+    name: 'Leather L-Shape Sofa',
+    description: 'Spacious L-shaped sectional in genuine leather',
+    category: 'sofas',
+    imageUrl: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+  },
+  {
+    id: 'sofa-3',
+    name: 'Minimalist 2-Seater',
+    description: 'Compact modern sofa for small spaces',
+    category: 'sofas',
+    imageUrl: 'https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=800&q=80',
+  },
+  {
+    id: 'bed-1',
+    name: 'King Platform Bed',
+    description: 'Modern platform bed with integrated headboard',
+    category: 'beds',
+    imageUrl: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80',
+  },
+  {
+    id: 'bed-2',
+    name: 'Upholstered Queen Bed',
+    description: 'Elegant upholstered bed with tufted headboard',
+    category: 'beds',
+    imageUrl: 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=800&q=80',
+  },
+  {
+    id: 'bed-3',
+    name: 'Wooden Frame Bed',
+    description: 'Rustic wooden bed frame with storage drawers',
+    category: 'beds',
+    imageUrl: 'https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=800&q=80',
+  },
+  {
+    id: 'wardrobe-1',
+    name: 'Sliding Door Wardrobe',
+    description: 'Space-saving wardrobe with mirrored sliding doors',
+    category: 'wardrobes',
+    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+  },
+  {
+    id: 'wardrobe-2',
+    name: 'Walk-in Closet System',
+    description: 'Modular closet system with shelves and drawers',
+    category: 'wardrobes',
+    imageUrl: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=800&q=80',
+  },
+  {
+    id: 'wardrobe-3',
+    name: 'Classic Armoire',
+    description: 'Traditional wooden armoire with carved details',
+    category: 'wardrobes',
+    imageUrl: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80',
+  },
+];
+
+export const categories = [
+  { id: 'chairs' as const, name: 'Chairs', icon: '🪑' },
+  { id: 'tables' as const, name: 'Tables', icon: '🪵' },
+  { id: 'sofas' as const, name: 'Sofas', icon: '🛋️' },
+  { id: 'beds' as const, name: 'Beds', icon: '🛏️' },
+  { id: 'wardrobes' as const, name: 'Wardrobes', icon: '🚪' },
+];
